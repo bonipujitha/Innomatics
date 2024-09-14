@@ -1,0 +1,37 @@
+/* Style the input field to stand out */
+input[type="text"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #dfe1e5;
+  border-radius: 30px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 4px 8px rgba(108, 99, 255, 0.3);
+}
+
+/* Style the search button */
+button {
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #5142f5;
+  box-shadow: 0 8px 15px rgba(81, 66, 245, 0.3);
+}
+
+button:active {
+  background-color: #3a32d1;
+}

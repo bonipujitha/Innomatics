@@ -1,0 +1,106 @@
+/* Professional and Clean background theme with image */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: url('http://www.zastavki.com/pictures/2560x1600/2012/World_Travel___Tourism_Traveling_around_the_World_034435_.jpg') no-repeat center center fixed; /* World map background image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  padding: 0 20px;
+  min-height: 100vh;
+}
+
+/* Updated for a professional, clean design */
+.App {
+  text-align: center;
+  backdrop-filter: blur(5px); /* Adds a slight blur to make text more readable */
+  background-color: rgba(255, 255, 255, 0.8); /* A translucent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for better contrast */
+  position: relative;
+}
+
+/* Add an AI-themed image to the App component */
+.App::before {
+  content: '';
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/1s4YAAAAABJRU5ErkJggg==') no-repeat center center;
+  background-size: contain;
+}
+
+/* Updated header for a more modern, professional look */
+.App-header {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for contrast */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons and links styled professionally */
+button {
+  padding: 10px 20px;
+  background-color: #0061ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #004bb5;
+  box-shadow: 0 8px 15px rgba(0, 75, 181, 0.3);
+}
+
+button:active {
+  background-color: #00368c;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #dfe1e5;
+  border-radius: 30px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #0061ff;
+  box-shadow: 0 4px 8px rgba(0, 97, 255, 0.3);
+}
+
+/* Links and hover effects to be professional */
+.App-link {
+  color: #0061ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #004bb5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
